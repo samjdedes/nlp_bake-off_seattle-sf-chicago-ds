@@ -4,9 +4,9 @@ Is it possible to identify the political party of U.S. Presidents from their ina
 
 U.S. Presidents have represented five different political parties in unequal numbers: Democrats, Democratic-Republicans, Federalists, Republicans, and Whigs. Of the 58 inaugural speeches, about 40% were given by representatives of the Democratic Party, and about 40% were given by representatives of the Republican, with the remainder split among the other three parties named above.
 
-In this repo are three pickled `pandas` Series: X_train, y_train, and X_test. The contents of X_train and X_test are the speeches; the contents of y_train are the political parties of the presidents who gave the corresponding speeches in X_train. Your job is to build a model to predict that political parties of the presidents who gave the speeches contained in X_test.
+In this repo are three pickled `pandas` Series: X_train, y_train, and X_test. The contents of X_train and X_test are the speeches; the contents of y_train are the political parties of the presidents who gave the corresponding speeches in X_train. Your job is to build a model to predict the political parties of the presidents who gave the speeches contained in X_test.
 
-Note that you will need to do some preprocessing of the data. The speeches in X_train (and X_test) are *mostly* clean in the sense of containing little else beyond the English words of the speeches themselves. But you will want to consider strategies like:
+Note that you will need to do some preprocessing of the data. The speeches in X_train (and X_test) are *mostly* clean in the sense of containing little else beyond the English words of the speeches themselves. But you may want to do some further cleaning. And you will definitely want to consider strategies like:
 
 - Eliminating capital letters and punctuation;
 - Using a stemmer or a lemmatizer;
