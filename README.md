@@ -17,4 +17,6 @@ before you get to modeling.
 
 You may use any of the modeling techniques we have explored that apply to classification problems, including any of the modeling classes contained in `sklearn.naive_bayes`.
 
+Your final model will be evaluated according to its _accuracy_.
+
 Note: It would be possible for you to search for the speeches that are contained in X_test and discover who gave them (and also what the speakers' political parties were). For the sake of this bake-off we of course cannot allow that and will consider any such behavior as cheating. You are on your honor!
