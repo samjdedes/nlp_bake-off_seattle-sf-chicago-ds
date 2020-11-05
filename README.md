@@ -83,8 +83,8 @@ Once you pass all of the tests in the validation notebook
 3. `git push` your work to your fork.
 4. Navigate to the [NLP Bakeoff Canvas Assignment](https://learning.flatironschool.com/courses/605/assignments/48829) and submit a link to your fork.
 
-------
+--------
 
 **Note:** It would be possible for you to search for the speeches that are contained in X_test and discover who gave them (and also what the speakers' political parties were). For the sake of this bake-off we of course cannot allow that and will consider any such behavior as cheating. You are on your honor!
 
----------
+--------
